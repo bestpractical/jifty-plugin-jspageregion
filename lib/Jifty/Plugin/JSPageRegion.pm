@@ -4,6 +4,8 @@ use warnings;
 package Jifty::Plugin::JSPageRegion;
 use base qw/Jifty::Plugin/;
 
+our $VERSION = '0.01';
+
 use PadWalker;
 use Jifty::Plugin::JSPageRegion::Compile;
 
